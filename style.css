@@ -15,11 +15,13 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 64px;
+    gap: 16px;
 }
 
 .left-header{
     font-size: 24px;
     color: #F9FAF8;
+    flex-shrink: 0;
 }
 
 .main{
@@ -38,6 +40,7 @@
     display: flex;
     gap: 24px;
     font-size: 18px;
+    flex-shrink: 0;
 }
 
 .hero-container{
@@ -144,6 +147,7 @@ button{
     display: flex;
     justify-content: space-between;
     border-radius: 8px;
+    gap: 16px;
 }
 
 .call-main{
@@ -159,6 +163,9 @@ button{
 
 .call-bg button{
     border: 2px solid #F9FAF8;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    max-height: fit-content;
 }
 
 .footer{
